@@ -1,0 +1,116 @@
+*{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+body{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 20px;
+    justify-content: space-around;
+}
+.left-container{
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.text-box{
+    background-color: #e5e6e8;
+    height: 35px;
+    padding-left: 15px;
+    width: 150px;
+    border: 1px solid #f8fbff;
+    border-radius: 5px;
+}
+.companies{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.companies h3{
+    letter-spacing: 1.5px;
+    color: rgb(16, 34, 50);
+}
+.companies ul li{
+    list-style: none;
+    margin-left: 10px;
+    letter-spacing: 1.7px;
+    font-weight: 550;
+    color: rgb(12, 74, 129);
+}
+.companies ul{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+.right-container{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 80px;
+    margin-right: 60px;
+}
+.row-one{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row-two{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row-three{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row-four{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row-five{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.row-six{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.right-container img{
+    width: 300px;
+    height: 190px;
+    border-radius: 20px;
+    float: left;
+}
+.name{
+    letter-spacing: 1.5px;
+    color: #426697;
+    font-weight: bold;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+}
+.price{
+    font-weight: bolder;
+}
+.right-container img:hover{
+    cursor: pointer;
+    box-shadow:  2px 3px 4px rgba(22,22,22,5.3)
+}
+ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
